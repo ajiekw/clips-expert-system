@@ -135,7 +135,7 @@
   (printout t "Schizophrenia Expert System")
   (printout t crlf crlf))
 
-(defrule print-repair ""
+(defrule print-probability ""
   (declare (salience 10))
   (positif ?item)
   =>
